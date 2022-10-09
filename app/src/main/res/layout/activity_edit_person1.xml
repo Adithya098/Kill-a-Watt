@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".usage.EditUsageActivity">
+
+    <!-- <EditText
+         android:id="@+id/editTextFi"
+         style="@style/editText"/>
+
+     <EditText
+         android:id="@+id/editTextLastName"
+         style="@style/editText"/>
+
+     <EditText
+         android:id="@+id/editTextAge"
+         style="@style/editText"/>-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_usage"
+        android:layout_weight="1"
+        android:hint="Usage"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_unicode1"
+        android:layout_weight="1"
+        android:hint="Unique code"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_date"
+        android:layout_weight="1"
+        android:hint="Date"/>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/defaultStyle"
+        android:text="Save"/>
+
+</LinearLayout>

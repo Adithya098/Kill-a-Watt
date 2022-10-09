@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nicktrick">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/meterico"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BillPay"></activity>
+        <activity android:name=".UserRegis">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".firebase.EditPersonActivity"></activity>
+        <activity android:name=".firebase.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Createnewuser">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QrCodeScan">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NameReg">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VerifyPass">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VerifyOtp">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".usage.UsageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".usage.EditUsageActivity"></activity>
+        <activity android:name=".QRScanner"></activity>
+        <activity android:name=".BarGraph"></activity>
+        <activity android:name=".Graph"></activity>
+        <activity android:name=".Graphview"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <TextView
+        android:id="@+id/put_unicode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="UniqId" />
+    <TextView
+        android:id="@+id/put_usage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usage" />
+    <TextView
+        android:id="@+id/put_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+</LinearLayout>

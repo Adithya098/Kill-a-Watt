@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".firebase.EditPersonActivity">
+
+    <!-- <EditText
+         android:id="@+id/editTextFi"
+         style="@style/editText"/>
+
+     <EditText
+         android:id="@+id/editTextLastName"
+         style="@style/editText"/>
+
+     <EditText
+         android:id="@+id/editTextAge"
+         style="@style/editText"/>-->
+    <EditText
+        android:id="@+id/get_unicode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Unique code" />
+
+    <EditText
+        android:id="@+id/get_phn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Phone no" />
+
+    <EditText
+        android:id="@+id/get_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="User name" />
+
+    <EditText
+        android:id="@+id/get_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="emailid" />
+
+    <!--<EditText
+        android:id="@+id/get_usage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usage" />
+
+    <EditText
+        android:id="@+id/get_date1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date" />-->
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/defaultStyle"
+        android:text="Save" />
+
+</LinearLayout>
